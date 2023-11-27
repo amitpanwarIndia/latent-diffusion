@@ -5,6 +5,9 @@ import numpy as np
 from tqdm import tqdm
 from functools import partial
 
+import sys
+sys.path.append('/content/latent-diffusion')
+
 from ldm.modules.diffusionmodules.util import make_ddim_sampling_parameters, make_ddim_timesteps, noise_like
 
 
